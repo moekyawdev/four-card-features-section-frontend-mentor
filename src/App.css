@@ -1,38 +1,148 @@
-.App {
+/* ======================
+   RESET + BASE STYLES
+====================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: poppin, sans-serif;
+  background-color: #f7f7f7;
+  color: #111;
+}
+
+/* ======================
+   MAIN SECTION
+====================== */
+.features {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* ======================
+   HEADER
+====================== */
+.header {
   text-align: center;
+  max-width: 450px;
+  margin: 0 auto 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.first-paragraph {
+  color: #777;
+  font-size: 31px;
+  font-weight: 250;
+  font-family: poppins, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #494950;
+  font-family: poppins, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header p:last-child {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ======================
+   GRID LAYOUT
+====================== */
+.grid {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ======================
+   CARD BASE
+====================== */
+.card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  position: relative;
+  min-height: 220px;
+  width: 340px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: hsl(234, 12%, 34%);
+  font-family: poppins, sans-serif;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+}
+
+/* ======================
+   CARD ICON
+====================== */
+.card img {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+}
+
+/* ======================
+   CARD POSITIONS
+====================== */
+
+/* Left card */
+.supervisor {
+  border-top: 4px solid #4fd1c5;
+}
+
+/* Middle top */
+.team-builder {
+  border-top: 4px solid #f56565;
+}
+
+/* Middle bottom */
+.karma {
+  border-top: 4px solid #f6ad55;
+}
+
+/* Right card */
+.calculator {
+  border-top: 4px solid #4299e1;
+}
+
+.middle-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 30px;
+  margin: 0 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ======================
+   RESPONSIVE (MOBILE)
+====================== */
+@media (max-width: 900px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .supervisor,
+  .calculator {
+    margin: 30px 0;
   }
 }
