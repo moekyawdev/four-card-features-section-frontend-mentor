@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/css/main.051de335.css",
+    "main.js": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/js/main.0f11865c.js",
+    "static/js/453.5369f7d3.chunk.js": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/js/453.5369f7d3.chunk.js",
+    "static/media/icon-karma.svg": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/media/icon-karma.24e0debeb1e51eaa14e295270e33df54.svg",
+    "static/media/icon-supervisor.svg": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/media/icon-supervisor.2dd10a2df2ddca34f77ca6a2065c6be2.svg",
+    "index.html": "/moekyawdev/four-card-features-section-frontend-mentor.git/index.html",
+    "static/media/icon-team-builder.svg": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/media/icon-team-builder.b885fb580a3cb78c9ad249750dd65a01.svg",
+    "static/media/icon-calculator.svg": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/media/icon-calculator.21bc9adc97d084a64aedb386f1e35c0d.svg",
+    "main.051de335.css.map": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/css/main.051de335.css.map",
+    "main.0f11865c.js.map": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/js/main.0f11865c.js.map",
+    "453.5369f7d3.chunk.js.map": "/moekyawdev/four-card-features-section-frontend-mentor.git/static/js/453.5369f7d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.051de335.css",
+    "static/js/main.0f11865c.js"
+  ]
+}
